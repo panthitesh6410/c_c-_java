@@ -1,0 +1,17 @@
+//In Function Overriding There Is No Meaning Of Function Overriding
+class Base
+{
+public:
+show()
+{
+cout<<"Base Class";
+}
+};
+class Derived:public Base
+{
+public:
+Show()
+{
+cout<<"Derived Class";
+}
+};

@@ -1,0 +1,21 @@
+1.settextstyle(font,direction,character size)
+
+Font:(0-11)
+Direction(0 For Left To Right,Others For Vertical text)
+Character Size(Depends On The Size Needed)
+
+2.setfillstyle(pattern,colour)
+
+Pattern:(0-12 ,0=Empty And 1=Solid)
+Colour(0-15)
+
+3.setlinestyle(style,pattern,thickness)
+
+Style:(0=Solid,1=Dotted,3=Dashed)
+Pattern:(0-12 ,0=Empty And 1=Solid)
+Thickness:It Is The Width In Terms Of Pixels
+
+4.settextjustify(horizontal,vertical)
+
+Horizontal:(0=Left,1=Center,2=Top)
+Vertical:(0=Bottom,1=Center,2=Top)
